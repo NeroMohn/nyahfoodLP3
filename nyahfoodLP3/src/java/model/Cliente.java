@@ -43,11 +43,11 @@ public class Cliente extends Usuario implements Serializable {
         this.cpf = cpf;
     }
 
-    public Long getIdCliente() {
+    public Long getId() {
         return id;
     }
 
-    public void setIdCliente(Long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
