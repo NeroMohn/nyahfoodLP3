@@ -39,19 +39,8 @@ public class Comida implements Serializable {
         setTempoEstimado(tempoEstimado);
         setFoto(foto);
         setPreco(preco);
-
         setLoja(loja);
 
-    }
-    
-    public Comida(Long id, String nome,String ingrediente, Integer tempoEstimado, String foto, Double preco, Long codLoja) {
-        setId(id);
-        setNome(nome);
-        setIngrediente(ingrediente);
-        setTempoEstimado(tempoEstimado);
-        setFoto(foto);
-        setPreco(preco);
-        setLoja(loja);   
     }
 
 

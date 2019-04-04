@@ -25,13 +25,6 @@ public class CupomDesconto implements Serializable{
     public CupomDesconto(){
         
     }
-
-    public CupomDesconto ( Long id, String nome, double valor, int ativo){
-        this.id = id;
-        this.nome = nome;
-        this.valor = valor;
-        this.ativo = ativo;
-    }
     
     public CupomDesconto ( String nome, double valor, int ativo){
         this.nome = nome;

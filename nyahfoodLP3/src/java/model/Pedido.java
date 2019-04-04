@@ -30,14 +30,6 @@ public class Pedido implements Serializable{
         
     }
 
-    public Pedido(Long id, double total, String metodoPagamento, String date, Cliente cliente, CupomDesconto cupomDesconto) {
-        this.id = id;
-        this.total = total;
-        this.metodoPagamento = metodoPagamento;
-        this.date = date;
-        this.cliente = cliente;
-        this.cupomDesconto = cupomDesconto;
-    }
 
     public Pedido(double total, String metodoPagamento, String date, Cliente cliente, CupomDesconto cupomDesconto) {
         this.total = total;

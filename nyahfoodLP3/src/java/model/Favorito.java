@@ -25,8 +25,7 @@ public class Favorito implements Serializable{
     
     public Favorito(){}
 
-    public Favorito(Long id, Cliente cliente, Loja loja) {
-        this.id = id;
+    public Favorito(Cliente cliente, Loja loja) {
         this.cliente = cliente;
         this.loja = loja;
     }

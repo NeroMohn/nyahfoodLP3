@@ -37,17 +37,6 @@ public class Loja extends Usuario implements Serializable {
         
     }
 
-    public Loja(Long id, String nome, String nomeGerente, String email, String senha, String telefone, String cnpj,String descricao,Long codTipoCozinha,String foto,String cep, String logradouro, String bairro,String numero, String complemento, String cidade, String estado) {
-        super(nome, email, senha, telefone, logradouro, cep, numero, bairro, complemento, cidade, estado);
-        this.id = id;
-        this.nomeGerente = nomeGerente;
-        this.foto = foto;
-        this.cnpj = cnpj;
-        this.descricao = descricao;
-        this.tipoCozinha = tipoCozinha;
-
-    }
-
     public Loja(String nome, String nomeGerente, String email, String senha, String telefone, String cnpj,String descricao,Long codTipoCozinha,String foto,String cep, String logradouro, String bairro,String numero, String complemento, String cidade, String estado) {
         super(nome, email, senha, telefone, logradouro, cep, numero, bairro, complemento, cidade, estado);
         this.nomeGerente = nomeGerente;

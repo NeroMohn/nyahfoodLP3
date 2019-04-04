@@ -22,8 +22,7 @@ private static final long serialVerionUID = 1L;
         
     }
 
-    public Adm(Long id, String login,String nome, String senha){
-       this.id = id;
+    public Adm(String login,String nome, String senha){
        this.nome = nome;
        this.senha = senha;
        this.login = login;

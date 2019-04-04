@@ -27,13 +27,6 @@ public class ComidaPedida implements Serializable{
     
     public ComidaPedida(){}
 
-    public ComidaPedida(Long id, int quantidade, double total, Long codComida, Long codPedido) {
-        setId(id);
-        setQuantidade(quantidade);
-        setTotal(total);
-        setComida(comida);
-        setPedido(pedido);
-    }
     
     public ComidaPedida(int quantidade, double total, Long codComida, Long codPedido) {
        

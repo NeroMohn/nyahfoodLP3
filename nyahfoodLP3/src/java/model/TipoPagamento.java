@@ -20,10 +20,6 @@ public class TipoPagamento implements Serializable{
     private Long id;
     private String nome;
 
-    public TipoPagamento(Long id, String nome) {
-        this.id = id;
-        this.nome = nome;
-    }
 
     public TipoPagamento(String nome) {
         this.nome = nome;
