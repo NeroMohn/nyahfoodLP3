@@ -33,3 +33,5 @@ nbdist/
 .nb-gradle/
 
 # End of https://www.gitignore.io/api/netbeans
+nyahfoodLP3/nbproject/project.properties
+nyahfoodLP3/nbproject/ant-deploy.xml
